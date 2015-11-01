@@ -1,3 +1,8 @@
+
+## 0.1.2 ( 2015/11/1 )
+- tranformFile, tranformFileSync supports option.filename (in Extractor.js)
+
+
 # Changelog
 
 Tags:

@@ -1,7 +1,7 @@
 {
-  "name": "react-inline",
-  "version": "0.6.3",
-  "description": "Transform inline styles defined in JavaScript modules into static CSS code and class names so they become available to, e.g. the `className` prop of React elements.",
+  "name": "react-inline-for-rix-loader",
+  "version": "0.1.2",
+  "description": "for developing webpack rix-loader, folk from https://github.com/martinandert/react-inline",
   "keywords": [
     "react",
     "style",
@@ -12,16 +12,16 @@
     "extract",
     "css"
   ],
-  "author": "Martin Andert",
+  "author": "Alfred UC",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinandert/react-inline"
+    "url": "https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/react-inline"
   },
   "bugs": {
-    "url": "https://github.com/martinandert/react-inline/issues"
+    "url": "https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/react-inline/issues"
   },
-  "homepage": "https://github.com/martinandert/react-inline",
+  "homepage": "https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/react-inline",
   "engines": {
     "node": ">=0.10"
   },

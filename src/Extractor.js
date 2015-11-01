@@ -37,7 +37,7 @@ export function transformFile(filename, options, callback) {
     options = {};
   }
 
-  options.filename = filename;
+  options.filename = options.filename || filename;
 
   fs.readFile(filename, function(err, source) {
     if (err) {
@@ -57,7 +57,7 @@ export function transformFile(filename, options, callback) {
 }
 
 export function transformFileSync(filename, options = {}) {
-  options.filename = filename;
+  options.filename = options.filename || filename;
 
   return transform(fs.readFileSync(filename), options);
 }
